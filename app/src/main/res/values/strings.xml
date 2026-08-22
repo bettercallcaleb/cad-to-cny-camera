@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CAD to CNY Camera</string>
+    <string name="about_privacy">About &amp; Privacy</string>
+    <string name="privacy_title">About &amp; Privacy</string>
+    <string name="privacy_message">Camera images are processed on-device for price recognition. Camera images are not uploaded or stored by the app. No account is required. The CAD-to-CNY exchange rate may currently be configured and stored locally on this device.</string>
+    <string name="close">Close</string>
+    <string name="waiting_for_price">Scanning…</string>
+    <string name="tax_label">Ontario tax (13%)</string>
+    <string name="tax_mode_auto">Tax: Auto</string>
+    <string name="tax_mode_zero">Tax override: 0%</string>
+    <string name="tax_mode_thirteen">Tax override: 13%</string>
+    <string name="debug_ocr">Debug OCR</string>
+    <string name="tiled_ocr">OCR mode: Full + tiled</string>
+    <string name="replace_mode">Append beside original</string>
+    <string name="settings">Settings</string>
+    <string name="done">Done</string>
+    <string name="ocr_debug_waiting">OCR: waiting for text…</string>
+    <string name="ocr_debug_value">OCR: &quot;%1$s&quot;</string>
+    <string name="ocr_debug_empty">(no text)</string>
+    <string name="rate_label">1 CAD = %1$s CNY</string>
+    <string name="rate_title">CAD to CNY exchange rate</string>
+    <string name="rate_message">Enter how many Chinese yuan equal one Canadian dollar. This value is saved on this device and works offline.</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="camera_permission_denied">Camera permission is required to scan prices.</string>
+    <string name="open_settings">Settings</string>
+    <string name="invalid_rate">Enter a number greater than zero</string>
+</resources>

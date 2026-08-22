@@ -1,0 +1,6 @@
+# Copy this file to local-signing.properties and keep the keystore outside this repository.
+# Never commit the copied file or real credentials.
+storeFile=/absolute/path/outside/repository/cad2cny-upload.jks
+storePassword=REPLACE_LOCALLY
+keyAlias=cad2cny-upload
+keyPassword=REPLACE_LOCALLY

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">CAD to CNY Camera example overlay</title>
+  <desc id="desc">Stylized phone camera view showing Canadian shelf prices with Chinese yuan overlays.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.28"/></filter>
+  </defs>
+  <rect width="1200" height="560" rx="28" fill="url(#bg)"/>
+  <text x="56" y="76" font-family="system-ui, sans-serif" font-size="36" font-weight="700" fill="#f8fafc">Point camera → detect CAD → overlay CNY</text>
+  <text x="56" y="114" font-family="system-ui, sans-serif" font-size="20" fill="#94a3b8">On-device OCR · retail heuristics · multi-frame tracking · no network permission</text>
+  <g transform="translate(65 155)" filter="url(#shadow)">
+    <rect width="1070" height="340" rx="22" fill="#e5e7eb"/>
+    <rect x="28" y="28" width="1014" height="284" rx="16" fill="#f8fafc"/>
+    <rect x="68" y="60" width="260" height="210" rx="12" fill="#d1d5db"/>
+    <rect x="405" y="60" width="260" height="210" rx="12" fill="#cbd5e1"/>
+    <rect x="742" y="60" width="260" height="210" rx="12" fill="#d1d5db"/>
+    <text x="95" y="135" font-family="system-ui, sans-serif" font-size="28" fill="#334155">PRICE AT REGISTER</text>
+    <text x="120" y="205" font-family="system-ui, sans-serif" font-size="62" font-weight="800" fill="#111827">7.99</text>
+    <rect x="160" y="218" width="152" height="58" rx="12" fill="#166534"/>
+    <text x="180" y="258" font-family="system-ui, sans-serif" font-size="38" font-weight="800" fill="white">¥46.95</text>
+    <text x="435" y="135" font-family="system-ui, sans-serif" font-size="28" fill="#334155">SALTED BUTTER</text>
+    <text x="470" y="205" font-family="system-ui, sans-serif" font-size="62" font-weight="800" fill="#111827">9.98</text>
+    <rect x="500" y="218" width="152" height="58" rx="12" fill="#166534"/>
+    <text x="517" y="258" font-family="system-ui, sans-serif" font-size="38" font-weight="800" fill="white">¥51.90</text>
+    <text x="772" y="135" font-family="system-ui, sans-serif" font-size="28" fill="#334155">MEMBER PRICE</text>
+    <text x="807" y="205" font-family="system-ui, sans-serif" font-size="62" font-weight="800" fill="#111827">6.55</text>
+    <rect x="838" y="218" width="152" height="58" rx="12" fill="#166534"/>
+    <text x="855" y="258" font-family="system-ui, sans-serif" font-size="38" font-weight="800" fill="white">¥34.06</text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+# Gradle / Android Studio
+.gradle/
+.idea/
+*.iml
+build/
+**/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Release signing secrets and private keys
+local-signing.properties
+key.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Build artifacts
+*.apk
+*.aab
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
